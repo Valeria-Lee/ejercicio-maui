@@ -58,7 +58,12 @@ public partial class FormPage : ContentPage
     private async Task makeReq(StringContent req) {
         var res = await _httpClient.PostAsync("https://fi.jcaguilar.dev/v1/escuela/persona", req);
         await Navigation.PopAsync();
-        Debug.WriteLine("Persona Enviada");
+
+        Debug.WriteLine($"Res code: {res.StatusCode}");
+
+        if (res.IsSuccessStatusCode) {
+            Debug.WriteLine("Persona Enviada");
+        }
     }
 
 }
