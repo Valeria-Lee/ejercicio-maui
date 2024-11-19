@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioMaui.MainPage">
+    
+    <StackLayout
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand">
+        <Button
+        x:Name="btnForm"
+        Text="Form Page"
+        Clicked="btnForm_Clicked"
+        HeightRequest="50"
+        WidthRequest="200"></Button>
+            <CollectionView ItemsSource="{Binding Personas}"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="FillAndExpand">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <HorizontalStackLayout HorizontalOptions="Center"
+                                   VerticalOptions="CenterAndExpand">
+                            <Label Text="{Binding nombre}"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="CenterAndExpand"></Label>
+                            <Label Text="{Binding apellido}"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="CenterAndExpand"></Label>
+                        </HorizontalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+    </StackLayout>
+</ContentPage>
