@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-19T17:11:45.765</Modified>
+      <Modified>2024-11-19T17:35:56.990</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EjercicioMaui.dll">
       <PackagePath>EjercicioMaui.dll</PackagePath>
-      <Modified>2024-11-19T17:11:45.323</Modified>
+      <Modified>2024-11-19T17:35:56.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjercicioMaui.exe</PackagePath>
-      <Modified>2024-11-19T17:11:45.328</Modified>
+      <Modified>2024-11-19T17:35:56.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

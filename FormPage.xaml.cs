@@ -18,10 +18,12 @@ public partial class FormPage : ContentPage
 
     private void txtApellido_Completed(object sender, EventArgs e) {
         nombreEscrito = true;
+        Debug.WriteLine("apellido");
     }
 
     private void txtNombre_Completed(object sender, EventArgs e) {
         apellidoEscrito = true;
+        Debug.WriteLine("nombre");
     }
 
     private void btnCrear_Clicked(object sender, EventArgs e)

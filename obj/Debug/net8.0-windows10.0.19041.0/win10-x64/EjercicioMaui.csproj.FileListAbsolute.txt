@@ -177,3 +177,4 @@ C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\obj\Debug\net8.0-windo
 C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\valeria\source\repos\EjercicioMaui\EjercicioMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\EjercicioMaui.sourcelink.json
